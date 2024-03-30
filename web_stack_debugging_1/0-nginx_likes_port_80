@@ -4,6 +4,6 @@
 # remove the default Nginx configuration file
 rm /etc/nginx/sites-enabled/default
 # configures Nginx to listen on port 80 for all active 1pv4 1ps
-ln -s /etc/nginx/sties-available/defult /etc/nginx/site-enable/default
+ln -s /etc/nginx/sties-available/defult /etc/nginx/site-enabled/default
 #restart nginx
 service nginx restart
